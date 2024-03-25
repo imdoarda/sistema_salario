@@ -6,21 +6,25 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 <body>
+      <!--pedir nome vendedor-->
     <h1>Informe os dados pedidos</h1>
     <form method="post">
     <label for="name">NOME:</label>
     <input type="name" name="name" />
+
+    <!--informa valor meta semanal (20 mil reais)-->
+    <label for="name">VALOR DA META SEMANAL:</label>
+    <input type="number" name="salario" />
+
+    <!--informa valor meta mensal (80 mil reais)-->
+    <label for="name">VALOR DA META MENSAL:</label>
+    <input type="number" name="salario1" />
+    
     <input type="submit" name="submit" value="Calcular" />
     </form>
     <?php 
 
-     //pedir nome vendedor
-
-
-     //valor meta semanal 20 mil reais
-
-
-     //valor meta mensal 80 mil reais
+     
 
 
      //calcular o salário final

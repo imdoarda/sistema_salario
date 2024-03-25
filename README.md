@@ -10,6 +10,10 @@
  sistema que solicita o nome do vendedor, os valores de meta semanal e mensal, e, ao final, o sistema deverá calcular o salário final e exibir ao usuário, para que o pagamento do salário seja efetuado. 
 
 
+ # Fontes utilizadas
+ https://www.aen.pr.gov.br/Noticia/Maior-do-Brasil-governador-confirma-novo-Piso-Regional-que-vai-de-R-18-mil-R-21-mil#:~:text=Na%20primeira%2C%20que%20contempla%20os,de%20R%24%201.927%2C02
+
+
 
 
 

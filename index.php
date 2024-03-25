@@ -22,7 +22,22 @@
     
     <input type="submit" name="submit" value="Calcular" />
     </form>
+
+
     <?php 
+    $num = filter_input(INPUT_POST, "salario");
+    $num1 = filter_input(INPUT_POST, "salario1");
+
+    if ($num)
+    {
+        echo "";
+     } else if ( $num){
+        echo "";
+    }else if( $num1){
+        echo "";
+    }else{
+        echo "";
+    }
 
      
 

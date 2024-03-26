@@ -1,7 +1,7 @@
 # ÍNDICE
 
 * [Descrição](#descri%C3%A7%C3%A3o)
-* []()
+* [Explicação](#Explica%C3%A7%C3%A3o-passo-a-passo)
 * [Funcionalidades](#Funcionalidades)
 * [Fontes](#Fontes-utilizadas)
 * [Tecnologias](#Tecnologias-utilizadas)

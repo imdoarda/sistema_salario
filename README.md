@@ -1,12 +1,15 @@
 # ÍNDICE
 
-* a
-* a
-* a
-* a
+* [Descrição](#descri%C3%A7%C3%A3o)
+* []()
+* [Funcionalidades](#Funcionalidades)
+* [Fontes](#Fontes-utilizadas)
+* [Tecnologias](#Tecnologias-utilizadas)
+* [Autores](#Autores)
 
 
-# SISTEMA PARA CALCULAR O VALOR DO SALÁRIO DOS TRABALHADORES
+# Descrição
+## SISTEMA PARA CALCULAR O VALOR DO SALÁRIO DOS TRABALHADORES
  O trabalho é baseado num sistema que solicita o nome do vendedor, os valores de meta semanal e mensal da empresa, e, ao final, o sistema deve calcular o salário final do vendedor e exibir ao usuário, para que o pagamento do salário seja efetuado. 
  Nesse trabalho, utilizamos como base uma situação problema real, vivenciada em entrevistas de emprego. 
 
@@ -43,7 +46,7 @@
  * [PHP: if - Manual](https://www.php.net/manual/pt_BR/control-structures.if.php).
  * [PHP: Expressões - Manual](https://www.php.net/manual/pt_BR/language.expressions.php)
 
-#Tecnologias utilizadas
+# Tecnologias utilizadas
 * HTML5
 * CSS3
 * PHP8
@@ -51,23 +54,7 @@
 * GIT
 * GITHUB
 * VS CODE
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
-## Autores
+# Autores
 
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127868962?v=4" width=115><br><sub>Maria Eduarda Mendes</sub>](https://github.com/imdoarda)

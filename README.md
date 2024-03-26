@@ -6,8 +6,17 @@
 * a
 
 
-# sistema_salario
- sistema que solicita o nome do vendedor, os valores de meta semanal e mensal, e, ao final, o sistema deverá calcular o salário final e exibir ao usuário, para que o pagamento do salário seja efetuado. 
+# SISTEMA PARA CALCULAR O VALOR DO SALÁRIO DOS TRABALHADORES
+ O trabalho é baseado num sistema que solicita o nome do vendedor, os valores de meta semanal e mensal da empresa, e, ao final, o sistema deve calcular o salário final do vendedor e exibir ao usuário, para que o pagamento do salário seja efetuado. 
+ Nesse trabalho, utilizamos como base uma situação problema real, vivenciada em entrevistas de emprego. 
+
+ 
+ ``PROBLEMA BASE``
+ ![image](https://github.com/imdoarda/sistema_salario/assets/127868962/09db128f-9f22-44d3-98c1-9c3f8f2c054d)
+
+ ![image](https://github.com/imdoarda/sistema_salario/assets/127868962/18de8e05-5653-4d5f-bc8f-61ad8ca21e13)
+
+
 
 
  # Fontes utilizadas

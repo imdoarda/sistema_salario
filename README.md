@@ -20,6 +20,11 @@
 
 
 
+# Explicação passo a passo
+ * 1º
+ * 2º
+ * 3º
+ * 4º 
 
  # Fontes utilizadas
  * [gov.br](https://www.aen.pr.gov.br/Noticia/Maior-do-Brasil-governador-confirma-novo-Piso-Regional-que-vai-de-R-18-mil-R-21-mil#:~:text=Na%20primeira%2C%20que%20contempla%20os,de%20R%24%201.927%2C02)

@@ -57,12 +57,12 @@
     
     //Cálculo excedente
     
-     $valor1 = intval($num2) - 20000; //excedente semana 1
-     $valor2 = intval($num3) - 20000; //excedente semana 2
-     $valor3 = intval($num4) - 20000; //excedente semana 3
-     $valor4 = intval($num5) - 20000; //excedente semana 4
+     $valor1 = intval($num2) - intval($metafixaSemanal); //excedente semana 1
+     $valor2 = intval($num3) - intval($metafixaSemanal); //excedente semana 2
+     $valor3 = intval($num4) - intval($metafixaSemanal); //excedente semana 3
+     $valor4 = intval($num5) - intval($metafixaSemanal); //excedente semana 4
 
-     $valor5 = intval($num6) - 80000; //excedente mês
+     $valor5 = intval($num6) - intval($metafixaMensal); //excedente mês
 
     
     //calculo metas concluidas

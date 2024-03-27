@@ -14,15 +14,7 @@
     <form method="post">
     <label for="name">NOME:</label>
     <input type="text" name="name" />
-
-    <!--informa valor meta semanal (20 mil reais)-->
-    <label for="name">VALOR DA META SEMANAL:</label>
-    <input type="number" name="salario" />
-
-    <!--informa valor meta mensal (80 mil reais)-->
-    <label for="name">VALOR DA META MENSAL:</label>
-    <input type="number" name="salario1" />
-
+    
     <!--informa valor feito na semana-->
     <label for="name">QUAL O VALOR FEITO NA SEMANA 1?:</label>
     <input type="number" name="feito" />
@@ -49,15 +41,11 @@
     <?php 
 
     //variáveis
-    $num = filter_input(INPUT_POST, "salario");
-    $num1 = filter_input(INPUT_POST, "salario1");
     $num2 = filter_input(INPUT_POST, "feito");
     $num3 = filter_input(INPUT_POST, "feito1");
     $num4 = filter_input(INPUT_POST, "feito2");
     $num5 = filter_input(INPUT_POST, "feito3");
     $num6 = filter_input(INPUT_POST, "month");
-    //$tot = filter_input(INPUT_POST, "feito", "feito1","feito2", "feito3");
-
    
 
 
@@ -69,12 +57,12 @@
     
     //Cálculo excedente
     
-     $valor1 = intval($num2) - intval($num); //excedente semana 1
-     $valor2 = intval($num3) - intval($num); //excedente semana 2
-     $valor3 = intval($num4) - intval($num); //excedente semana 3
-     $valor4 = intval($num5) - intval($num); //excedente semana 4
+     $valor1 = intval($num2) - 20000; //excedente semana 1
+     $valor2 = intval($num3) - 20000; //excedente semana 2
+     $valor3 = intval($num4) - 20000; //excedente semana 3
+     $valor4 = intval($num5) - 20000; //excedente semana 4
 
-     $valor5 = intval($num6) - intval($num1); //excedente mês
+     $valor5 = intval($num6) - 80000; //excedente mês
 
     
     //calculo metas concluidas
@@ -106,7 +94,7 @@
 
 
 
-    if(!($num && $num1 && $num2 && $num3 && $num4 && $num5 && $num6)){
+    if(!($num2 && $num3 && $num4 && $num5 && $num6)){
         echo "Por favor, informe os dados pedidos.";
         return;
     }
@@ -116,36 +104,7 @@
     }
 
 
-    //condição p/caso de cumprimento de metas
-    if($num2 && $num3 && $num4 && $num5 == $num){
-        echo "O funcionário alcançou a meta semanal, seu salário deve ser de: $salario1 .";
-    }else if($num2 + $num3 + $num4 + $num5 == $metafixaMensal){
-        echo "O funcionário alcançou a meta mensal, seu salário deve ser de: $salario7";
-    }else if($num6 > $num1){
-        echo "O funcionário alcançou a meta mensal com excedente, seu salário deve ser de: ";
-    }
     
-    //condição p/ caso de obter excedente
-    if($num2 > $num){
-        echo "O funcionário conseguiu alcançar a meta semanal e conseguiu excedente, seu salário deve ser de: $salario2 .";
-    } else if($num3 > $num){
-        echo"O funcionário conseguiu alcançar a meta semanal e conseguiu excedente, seu salário deve ser de: $salario3 .";    
-    } else if($num4 > $num){
-        echo"O funcionário conseguiu alcançar a meta semanal e conseguiu excedente, seu salário deve ser de: $salario4 .";
-    } else if($num5 > $num){
-        echo"O funcionário conseguiu alcançar a meta semanal e conseguiu excedente, seu salário deve ser de: $salario5 .";
-    }
-    
-    
-    if($num2 < $num){
-        echo "O funcionário não atingiu a meta semanal na primeira semana e, assim, seu salário deve ser de: $salario_minimo .";
-    } else if($num3 < $num){
-        echo "O funcionário não atingiu a meta semanal e, assim, seu salário deve ser de: $salario_minimo .";
-    } else if($num4 < $num){
-        echo "O funcionário não atingiu a meta semanal e, assim, seu salário deve ser de: $salario_minimo .";
-    } else if($num5 < $num){
-        echo "O funcionário não atingiu a meta semanal e, assim, seu salário deve ser de: $salario_minimo .";
-    } 
 
    
     

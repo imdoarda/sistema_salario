@@ -3,7 +3,7 @@
 
 <head>
     <title>Tipo número</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='_css/style.css'>
 </head>
 <body>
     <div class = "container">
@@ -34,9 +34,9 @@
     <label for="name">QUAL O VALOR FEITO NA SEMANA 4?:</label>
     <input type="number" name="feito3" />
 
-    <!--informa valor feito no mês
+    <!--informa valor feito no mês-->
     <label for="name">QUAL O VALOR FEITO NO MÊS?:</label>
-    <input type="number" name="month" />-->
+    <input type="number" name="month" />
 
     <!--botão p/adicionar as informações-->
     <button type="submit" name="submit">Calcular</button>
@@ -53,9 +53,9 @@
     $num3 = filter_input(INPUT_POST, "feito1");
     $num4 = filter_input(INPUT_POST, "feito2");
     $num5 = filter_input(INPUT_POST, "feito3");
-   // $num6 = filter_input(INPUT_POST, "month");
+    $num6 = filter_input(INPUT_POST, "month");
 
-   $month = $num2 + $num3 + $num4 + $num5;
+   
 
 
     //valores fixos
@@ -66,8 +66,8 @@
     
     //Cálculo excedente
     
-     $valor1 = ($num2 && $num3 && $num4 && $num5) - $num;
-     $valor2 = $month - $num1;
+     $valor1 = $num2 - $num; //excedente semana
+     $valor2 = $num6 - $num1; //excedente mês
 
     //calculo metas concluidas
 

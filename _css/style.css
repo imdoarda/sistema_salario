@@ -2,22 +2,26 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:blanchedalmond; 
+    background-color: lightslategray; 
 }
  
 .container {
-    width: 60%;
-    margin: 50px auto;
-    background-color: beige;
+    width: 40%;
+    margin: 30px;
+    margin-left: 27%;
+    margin-right: 25%;
+    background-color: lightblue;
     padding: 40px;
-    border-radius: 20px;
-    border: 2px solid #800020; 
+    border-radius: 30px;
+    border: 2px solid; 
+    text-align: center;
+
 }
  
 h1 {
     text-align: center;
-    color: #800020; 
-    margin-bottom: 30px;
+    color:lightslategray; 
+   /* margin-bottom: 30px;*/
 }
  
 form {
@@ -33,9 +37,8 @@ label {
 }
  
 input[type="text"],
-input[type="number"],
-button {
-    width: 70%;
+input[type="number"]{
+    width: 50%;
     padding: 15px;
     margin: 10px auto;
     border: 2px solid #a34848; 
@@ -50,10 +53,16 @@ button {
     background-color:#800020;
     color: #fff;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 2px solid #a34848; 
+    border-radius: 20px;
+    width: 70%;
+    padding: 15px;
+    
 }
  
 button:hover {
-    background-color: #800020;
+    background-color:lightslategray;
+    color:black;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 

@@ -38,19 +38,19 @@
    ![uhu](https://github.com/imdoarda/sistema_salario/assets/127868962/97e3f49c-6f02-43f4-ab60-d8eaeb76b10e)
 
 # Funcionalidades
-``FUNCIONALIDADE 1``
+``FUNCIONALIDADE 1``  
 ![image](https://github.com/imdoarda/sistema_salario/assets/127868962/26e86ba3-49b5-45a4-8b4f-9fcb31f17a73)
 
-``FUNCIONALIDADE 2``
+``FUNCIONALIDADE 2``  
 ![image](https://github.com/imdoarda/sistema_salario/assets/127868962/8124dc16-66c5-4570-9821-b548b7ec5300)
 
-``FUNCIONALIDADE 3``
+``FUNCIONALIDADE 3``  
 ![image](https://github.com/imdoarda/sistema_salario/assets/127868962/ad1091b8-4322-4247-a7a3-30ccea2b6aef)
 
-``FUNCIONALIDADE 4``
+``FUNCIONALIDADE 4``  
 ![image](https://github.com/imdoarda/sistema_salario/assets/127868962/d1dcb9bd-77d8-49b3-aff9-fb01d3e2b82b)
 
-``FUNCIONALIDADE 5``
+``FUNCIONALIDADE 5``  
 ![image](https://github.com/imdoarda/sistema_salario/assets/127868962/c61cb272-8693-4e6a-891e-4cc8087bd8e4)
 
 

@@ -53,7 +53,7 @@
  * [PHP: Expressões - Manual](https://www.php.net/manual/pt_BR/language.expressions.php)
  * [Como criar formulário para calcular porcentagem](https://youtu.be/RWvn2mP1xbw?si=pVZ97PA72ZQPtLpr)
  * [PHP: intval](https://www.php.net/manual/pt_BR/function.intval.php)
- * [Operadores aritméticos](https://www.php.net/manual/pt_BR/language.operators.arithmetic.php)
+ * [PHP: Operadores aritméticos](https://www.php.net/manual/pt_BR/language.operators.arithmetic.php)
    
 
 # Tecnologias utilizadas

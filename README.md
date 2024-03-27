@@ -39,6 +39,7 @@
 
 # Funcionalidades
 ``FUNCIONALIDADE 1``  
+* Declara as variáveis e condições pro caso de falta de daos ou dados negativos
 ![image](https://github.com/imdoarda/sistema_salario/assets/127868962/26e86ba3-49b5-45a4-8b4f-9fcb31f17a73)
 
 ``FUNCIONALIDADE 2``  

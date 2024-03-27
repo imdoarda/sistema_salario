@@ -20,7 +20,16 @@ body {
  
 h1 {
     text-align: center;
+    color:#800020;
+    text-decoration: underline;
    /* margin-bottom: 30px;*/
+}
+h2 {
+    text-align: center;
+    color:black;
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: underline;
 }
  
 form {
@@ -28,6 +37,7 @@ form {
 }
  
 label {
+    text-decoration: underline;
     font-weight: bold;
     display: block;
     margin-bottom: 15px;

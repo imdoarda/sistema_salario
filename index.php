@@ -44,11 +44,11 @@ $num5 = filter_input(INPUT_POST, "feito3");
 $num6 = intval($num2) + intval($num3) + intval($num4) + intval($num5);
 
 if(!($num2 && $num3 && $num4 && $num5)){
-    echo "Por favor, informe os dados pedidos.";
+    echo "<h2>Por favor, informe os dados pedidos.<h2>";
     return;
 }
 if($num2 < 0 || $num3 < 0 || $num4 < 0 || $num5 < 0){
-    echo "Por favor, informe com dados positivos.";
+    echo "<h2>Por favor, informe com dados positivos.<h2>";
     return;
 }
 

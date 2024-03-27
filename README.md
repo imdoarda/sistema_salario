@@ -51,6 +51,10 @@
  * [gov.br](https://www.aen.pr.gov.br/Noticia/Maior-do-Brasil-governador-confirma-novo-Piso-Regional-que-vai-de-R-18-mil-R-21-mil#:~:text=Na%20primeira%2C%20que%20contempla%20os,de%20R%24%201.927%2C02)
  * [PHP: if - Manual](https://www.php.net/manual/pt_BR/control-structures.if.php).
  * [PHP: Expressões - Manual](https://www.php.net/manual/pt_BR/language.expressions.php)
+ * [Como criar formulário para calcular porcentagem](https://youtu.be/RWvn2mP1xbw?si=pVZ97PA72ZQPtLpr)
+ * [PHP: intval](https://www.php.net/manual/pt_BR/function.intval.php)
+ * [Operadores aritméticos](https://www.php.net/manual/pt_BR/language.operators.arithmetic.php)
+   
 
 # Tecnologias utilizadas
 * HTML5

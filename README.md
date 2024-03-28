@@ -12,7 +12,9 @@
  O site permite o cálculo do salário que os funcionários devem receber de acordo com suas metas semanais e mensais. No caso de não bater uma das metas semanais, o funcionário perde o direito de receber o excedente conquistado por vendas nas demais semanas.
  * Quando a meta semanal é conquistada, o funcionário recebe o salário mínimo + 1% sobre esse valor;
  * Quando tem um excedente semanal, o funcionário recebe o salário mínimo + 5% sobre o excedente;
- * Quando tem-se um excedente mensal, o funcionário recebe o salário mínimo + 10% sobre o excedente + (a porcentagem de cada semana * 4) / Isso só acontece quando a meta de todas as semanas é batida.
+ * Quando tem-se um excedente mensal, o funcionário recebe o salário mínimo + 10% sobre o excedente + (a porcentagem de cada semana * 4) / Isso só acontece quando a meta de todas as semanas é batida.  
+ * ![Captura de tela 2024-03-27 214223](https://github.com/imdoarda/sistema_salario/assets/127868962/80dea073-7de1-4081-87a3-76b4287aa406)
+
 
    
 ## SISTEMA PARA CALCULAR O VALOR DO SALÁRIO DOS TRABALHADORES
